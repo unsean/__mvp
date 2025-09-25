@@ -39,7 +39,7 @@
       "favicon": "./assets/favicon.png"
     },
     "extra": {
-      "OPENROUTER_API_KEY": "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",
+      "OPENROUTER_API_KEY": "zz",
       "OPENROUTER_API_BASE": "https://openrouter.ai/api/v1"
     },
     "plugins": [
