@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Go-to-Resto",
+    "slug": "go-to-resto",
+    "version": "1.0.0",
+    "sdkVersion": "54.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "We need access to your photos to update your profile picture.",
+        "NSCameraUsageDescription": "We need access to your camera to take a new profile picture."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "OPENROUTER_API_KEY": "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",
+      "OPENROUTER_API_BASE": "https://openrouter.ai/api/v1"
+    },
+    "plugins": [
+      "expo-asset",
+      "expo-router"
+    ],
+    "scheme": "go-to-resto"
+  }
+}

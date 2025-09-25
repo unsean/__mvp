@@ -1,0 +1,73 @@
+# === General ===
+# Environment files (keep .env.example committed)
+.env
+.env.*
+!.env.example
+
+# Logs
+logs
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+
+# Caches and build output
+.cache/
+.meteor/
+.mypy_cache/
+.pytest_cache/
+.metro/
+coverage/
+dist/
+build/
+web-build/
+
+# === JavaScript / React Native / Expo ===
+node_modules/
+.expo/
+.expo-shared/
+.expo/web-build/
+.expo-dev-client/
+
+# React Native bundle helper artifacts
+com.facebook.react.devsupport.BundleDownloader
+InternalBytecode.js
+
+# Android / iOS native projects (if generated later)
+android/
+ios/
+
+# === Python backend (backend/ folder) ===
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.eggs/
+.coverage
+htmlcov/
+
+# === Supabase ===
+# Keep migrations/schema committed, ignore temp/branch artifacts and env
+supabase/.temp/
+supabase/.branches/
+supabase/.env
+supabase/.env.local
+
+# === Misc ===
+*.sqlite
+*.db
+*.tgz
+*.patch
